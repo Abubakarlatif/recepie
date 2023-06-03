@@ -1,0 +1,28 @@
+.App{
+min-height: 100vh;
+background: #CB356B;  
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B); 
+background: linear-gradient(to right, #BD3F32, #CB356B); 
+}
+.search-form{
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  justify-content: center;
+}
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.form-btn{
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.recepies{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
